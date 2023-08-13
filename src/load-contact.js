@@ -1,3 +1,5 @@
+import Img from './img/map1.png'
+
 function loadContact() {
     const activeMenu = document.getElementById('CONTACT')
     activeMenu.classList = 'active'
@@ -12,7 +14,7 @@ function loadContact() {
     mainContainer.appendChild(title)
 
     const img = new Image()
-    img.src = "../src/img/map1.png"
+    img.src = Img
     img.classList = 'img-contact'
     mainContainer.appendChild(img)
 

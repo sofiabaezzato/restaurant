@@ -1,3 +1,5 @@
+import Img from './img/menu.jpg'
+
 function loadMenu() {
     console.log('the menu is loaded')
     const activeMenu = document.getElementById('MENU')
@@ -13,7 +15,7 @@ function loadMenu() {
     mainContainer.appendChild(title)
 
     const img = new Image()
-    img.src = "../src/img/menu.jpg"
+    img.src = Img
     img.classList = 'img-menu'
     mainContainer.appendChild(img)
 

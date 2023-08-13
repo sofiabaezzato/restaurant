@@ -1,3 +1,5 @@
+import Img from './img/pizza.jpg'
+
 function loadHome() {
     const activeMenu = document.getElementById('HOME')
     activeMenu.classList = 'active'
@@ -12,7 +14,7 @@ function loadHome() {
     mainContainer.appendChild(title)
 
     const img = new Image()
-    img.src = "../src/img/pizza.jpg"
+    img.src = Img
     img.classList = 'img-home'
     mainContainer.appendChild(img)
 
