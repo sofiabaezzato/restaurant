@@ -1,5 +1,4 @@
 function loadHeader() {
-    console.log('the header is loaded')
     const mainDiv = document.getElementById("content")
 
     mainDiv.innerHTML = ''

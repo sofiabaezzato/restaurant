@@ -1,5 +1,4 @@
 function loadHome() {
-    console.log('the home is loaded')
     const activeMenu = document.getElementById('HOME')
     activeMenu.classList = 'active'
     const mainDiv = document.getElementById("content")
