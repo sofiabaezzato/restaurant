@@ -109,8 +109,6 @@ class Pizza {
         
         return card
     }
-
-    // create a createCard method
 }
 
 export default loadMenu
