@@ -1,6 +1,3 @@
-# restaurant
-
-
 # Restaurant Project
 ![screenshot](./screenshot.png)
 
